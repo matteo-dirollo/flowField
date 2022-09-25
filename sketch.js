@@ -14,7 +14,7 @@ function setup() {
   background(255);
   cols = floor(width / scl);
   rows = floor(height / scl);
-  fr = createP("");
+//   fr = createP("");
 
   flowfield = new Array(cols * rows);
   for (var i = 0; i < 500; i++) {
@@ -56,5 +56,5 @@ function draw() {
    
   }
 
-  fr.html(floor(frameRate()));
+//   fr.html(floor(frameRate()));
 }
